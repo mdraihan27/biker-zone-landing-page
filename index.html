@@ -35,11 +35,15 @@
         font-family: "Poppins", sans-serif;
         margin: 0;
     }
+
+    .carousel {
+  scroll-margin-top: 100px;
+}
 </style>
 </head>
-<body class="bg-white">
+<body class="bg-white max-w-[1400px] m-auto">
 
-    <header class="bg-[#264653] ">
+    <header class="bg-[#264653] px-8">
         <nav class="bg-bgcolor pt-4">
             <div class="navbar bg-base-100 bg-bgcolor ">
                 <div class="flex-1">
@@ -85,11 +89,11 @@
         </nav>
 
 
-        <div class="carousel w-full ">
+        <div class="carousel w-full" >
             <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <div class="space-y-7 p-8 lg:p-0">
-                  <h2 class="text-6xl font-bold">Ride-on R15 V4<br> with smile</h2>
+              <div class="flex flex-col lg:flex-row p-12 lg:p-24 lg:gap-[76px] m-auto justify-between">
+                <div class="space-y-7 p-8 lg:p-0 lg:max-w-[500px]">
+                  <h2 class="text-6xl font-bold">Ride-on R15 V4 with smile</h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, asperiores eveniet minima vero sit, iusto pariatur dolorem culpa officiis possimus eum esse  iure libero numquam exercitationem qui at enim eos?</p>
                   <button class="btn btn-primary bg-orange border-none text-white hover:bg-black"> Purchase</button>
                 </div>
@@ -103,9 +107,9 @@
             </div>
             <div id="slide2" class="carousel-item relative w-full">
 
-              <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <div class="space-y-7 p-8 lg:p-0">
-                  <h2 class="text-6xl font-bold">Ride-on R15 V4<br> with smile</h2>
+              <div class="flex flex-col lg:flex-row p-12 lg:p-24 lg:gap-[76px]">
+                <div class="space-y-7 p-8 lg:p-0 lg:max-w-[500px]">
+                  <h2 class="text-6xl font-bold">Honda CBR 300R</h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, asperiores eveniet minima vero sit, iusto pariatur dolorem culpa officiis possimus eum esse  iure libero numquam exercitationem qui at enim eos?</p>
                   <button class="btn btn-primary bg-orange border-none text-white hover:bg-black"> Purchase</button>
                 </div>
@@ -118,9 +122,9 @@
               </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
-              <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <div class="space-y-7 p-8 lg:p-0">
-                  <h2 class="text-6xl font-bold">Ride-on R15 V4<br> with smile</h2>
+              <div class="flex flex-col lg:flex-row p-12 lg:p-24 lg:gap-[76px]">
+                <div class="space-y-7 p-8 lg:p-0 lg:max-w-[500px]">
+                  <h2 class="text-6xl font-bold">Ride-on R15 V4 with smile</h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, asperiores eveniet minima vero sit, iusto pariatur dolorem culpa officiis possimus eum esse  iure libero numquam exercitationem qui at enim eos?</p>
                   <button class="btn btn-primary bg-orange border-none text-white hover:bg-black"> Purchase</button>
                 </div>
@@ -133,9 +137,9 @@
               </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
-               <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <div class="space-y-7 p-8 lg:p-0">
-                  <h2 class="text-6xl font-bold">Ride-on R15 V4<br> with smile</h2>
+               <div class="flex flex-col lg:flex-row p-12 lg:p-24 lg:gap-[76px]">
+                <div class="space-y-7 p-8 lg:p-0 lg:max-w-[500px]">
+                  <h2 class="text-6xl font-bold">Honda CBR 300R</h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, asperiores eveniet minima vero sit, iusto pariatur dolorem culpa officiis possimus eum esse  iure libero numquam exercitationem qui at enim eos?</p>
                   <button class="btn btn-primary bg-orange border-none text-white hover:bg-black"> Purchase</button>
                 </div>
@@ -149,14 +153,14 @@
             </div>
           </div> 
     </header>
-    <main class="">
+    <main class="px-8 ">
       <!-- featured bike  -->
 
       <section>
 
         <h2 class="text-center text-black py-8 text-[55px] font-bold">Featured Bike</h2>
 
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-[20px]">
+        <div class="flex flex-col lg:flex-row items-center justify-around ">
           <div class="card text-black w-96 shadow-2xl pt-8">
             <figure>
               <img
@@ -315,7 +319,7 @@
         <h2 class="text-black font-bold text-[55px] py-8 lg:py-12 text-center">Frequently Asked <span class="text-orange">Questions</span></h2>
 
         
-          <div class="hero-content flex-col lg:flex-row items-center justify-around gap-[100px] lg:gap-[40px] py-16">
+          <div class="hero-content flex-col lg:flex-row items-center m-auto justify-around gap-[100px] lg:gap-[40px] py-16">
             <img
               src="images/others/faq.png"
               class="" />
@@ -360,7 +364,7 @@
     
 
       <footer class="lg:block flex bg-[#0b0d17] flex-col lg:flex-row  text-neutral-content items-start gap-[85px]  justify-between  pt-[100px] lg:pt-[70px] pb-[60px]">
-      <div class="ps-[25px] text-[21px] lg:flex lg:text-[19px] lg:items-center">
+      <div class="ps-[25px] text-[21px] lg:flex lg:text-[19px] lg:items-center lg:justify-between">
         <div class="space-y-[10px] lg:space-y-5 mb-[27px]">
           <div class="flex gap-[30px] lg:gap-[40px] mb-[27px] lg:mb-[0px]">
             <p>Download Now</p>
@@ -379,7 +383,7 @@
          <p class=" hidden lg:flex lg:pt-6 ">© 2020 bike. All rights reserved</p>
         </div>
         
-        <nav class="flex flex-col lg:m-auto gap-[20px] items-start">
+        <nav class="flex flex-col lg:my-auto gap-[20px] items-start me-[200px]">
           <p class="text-[25px]">Get the App</p>
           <a>
            <img src="images/others/android.png" alt="" class="h-[60px]">
